@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+        <style>
+        .host-tag{
+            display: inline-block;
+            padding: 3px;
+            border: 1px solid red;
+            background-color: palevioletred;
+        }
+        .hide{
+            display: none;
+        }
+        .shade{
+            position: fixed;
+            top: 0;
+            right: 0;
+            left: 0;
+            bottom: 0;
+            background: black;
+            opacity: 0.6;
+            z-index: 100;
+        }
+        .add-modal,.edit-modal{
+            position: fixed;
+            height: 300px;
+            width: 400px;
+            top:100px;
+            left: 50%;
+            z-index: 101;
+            border: 1px solid red;
+            background: white;
+            margin-left: -200px;
+        }
+    </style>
+</head>
+<body>
+<a>
+
+<h1>应用列表</h1>
+{#     <div>#}
+{#        <input id="add_app" type="button" value="添加" />#}
+{#    </div>#}
+    <table border="1">
+        <thead>
+            <tr>
+                <td>应用名称</td>
+                <td>应用主机列表</td>
+            </tr>
+        </thead>
+        <tbody>
+            {% for app in test %}
+                <tr aid="{{ app.id}}">
+                    <td>{{ app.name}}</td>
+                    <td>
+                        {% for host in app.hosttoapp_set.all %}
+                            <span class="host-tag" hid="{{ host.hobj.nid }}"> {{ host.hobj.hostname }} </span>
+                        {% endfor %}
+                    </td>
+                </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+</a>
+</body>
+<script src='/static/jquery-1.11.3.js'></script>
+<script>
+
+</script>
+
+</html>
