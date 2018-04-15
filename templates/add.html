@@ -51,15 +51,16 @@
             </tr>
         </thead>
         <tbody>
-            {% for app in test %}
+            {% for app in app_list %}
                 <tr aid="{{ app.id}}">
                     <td>{{ app.name}}</td>
                     <td>
-                        {% for host in app.hosttoapp_set.all %}
-                            <span class="host-tag" hid="{{ host.hobj.nid }}"> {{ host.hobj.hostname }} </span>
+                        {% for host in app.r.all %}
+                            <span class="host-tag" hid="{{ host.nid}}"> {{ host.hostname}} </span>
                         {% endfor %}
                     </td>
                 </tr>
+
             {% endfor %}
         </tbody>
     </table>

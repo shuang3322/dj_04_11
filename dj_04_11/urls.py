@@ -18,9 +18,10 @@ from django.urls import path,re_path
 from app01 import views
 
 urlpatterns = [
-    path('', views.app1),
-
+    path('', views.index),
+    path('business', views.business),
+    path('host', views.host),
+    path('test_ajax', views.test_ajax),
+    path('app', views.app),
+    path('ajax_add_app', views.ajax_add_app),
 ]
-# urlpatterns = [
-#
-# ]
