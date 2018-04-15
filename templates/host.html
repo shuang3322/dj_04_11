@@ -155,7 +155,7 @@
 
 
 
-    <script src="/static/jquery.js"></script>
+    <script src="/static/jquery-1.11.3.js"></script>
     <script>
         $(function(){
 
@@ -193,16 +193,16 @@
 
                 var bid = $(this).parent().parent().attr('bid');
                 var nid = $(this).parent().parent().attr('hid');
-                var hostname = $(this).parent().siblings('p').attr('h');
-                var ip = $(this).parent().parent().attr('ip');
-                var port = $(this).parent().parent().attr('port');
+                var hostname = $(this).parent().siblings("td[h]").attr('h');
+                var ip = $(this).parent().siblings("td[i]").attr('i');
+                var port = $(this).parent().siblings("td[p]").attr('p');
 
 
                 $('#edit_form').find('select').val(bid);
                 $('#edit_form').find('input[name="nid"]').val(nid);
                 $('#edit_form').find('input[name="hostname"]').val(hostname);
-                $('#edit_form').find('input[name="ip"]').val(nid);
-                $('#edit_form').find('input[name="port"]').val(nid);
+                $('#edit_form').find('input[name="ip"]').val(ip);
+                $('#edit_form').find('input[name="port"]').val(port);
 
                 // 修改
                 /*

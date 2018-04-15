@@ -5,15 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b91bb466-a031-4d06-8636-7160d67ca937" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app01/migrations/0001_initial.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app01/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/app01/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app01/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/app01/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dj_04_11/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/dj_04_11/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dj_04_11/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/dj_04_11/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/add.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/add.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/hello.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/host.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/host.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -88,8 +79,8 @@
       <file leaf-file-name="settings.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/dj_04_11/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="182">
-              <caret line="46" selection-start-line="46" selection-end-line="46" selection-end-column="50" />
+            <state relative-caret-position="328">
+              <caret line="122" column="20" selection-start-line="122" selection-start-column="19" selection-end-line="122" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -97,8 +88,8 @@
       <file leaf-file-name="host.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/templates/host.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="196">
-              <caret line="195" column="56" selection-start-line="195" selection-start-column="48" selection-end-line="195" selection-end-column="56" />
+            <state relative-caret-position="770">
+              <caret line="35" column="56" lean-forward="true" selection-start-line="35" selection-start-column="56" selection-end-line="35" selection-end-column="56" />
               <folding>
                 <element signature="n#style#0;n#span#0;n#form#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -138,11 +129,12 @@
     <findStrings>
       <find>DIRS</find>
       <find>temp</find>
-      <find />
       <find>hide</find>
-      <find>csrf</find>
+      <find>hide</find>
       <find>submit</find>
       <find>this</find>
+      <find>forloop</find>
+      <find>csrf</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -175,7 +167,7 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1936" />
@@ -262,7 +254,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.host.html">
+  <component name="RunManager" selected="Django server.dj_04_11">
     <configuration name="add.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/dj_04_11/templates/add.html" />
     <configuration name="host.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/dj_04_11/templates/host.html" />
     <configuration name="models" type="PythonConfigurationType" factoryName="Python" temporary="true">
@@ -394,7 +386,7 @@
       <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.3297362" />
       <window_info anchor="bottom" id="Python Console" order="9" weight="0.32853717" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.24820144" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.24820144" />
       <window_info anchor="bottom" id="Terminal" order="10" weight="0.32853717" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1433902" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
@@ -757,13 +749,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dj_04_11/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="46" selection-start-line="46" selection-end-line="46" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/dj_04_11/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
@@ -784,10 +769,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/dj_04_11/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="328">
+          <caret line="122" column="20" selection-start-line="122" selection-start-column="19" selection-end-line="122" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/templates/host.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="195" column="56" selection-start-line="195" selection-start-column="48" selection-end-line="195" selection-end-column="56" />
+        <state relative-caret-position="770">
+          <caret line="35" column="56" lean-forward="true" selection-start-line="35" selection-start-column="56" selection-end-line="35" selection-end-column="56" />
           <folding>
             <element signature="n#style#0;n#span#0;n#form#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
